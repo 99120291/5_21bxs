@@ -1,0 +1,352 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+  font-family: STHeitiSC-Light;
+  font: inherit;
+  vertical-align: baseline; }
+
+html,
+body,
+form,
+fieldset,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-text-size-adjust: none; }
+
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  font-family: arial, sans-serif; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+ins,
+a {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  display: inline-block; }
+
+input,
+textarea {
+  border: none;
+  background: none;
+  outline: none;
+  -webkit-appearance: none; }
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+  -ms-tap-highlight-color: rgba(0, 0, 0, 0);
+  -o-tap-highlight-color: rgba(0, 0, 0, 0);
+  tap-highlight-color: rgba(0, 0, 0, 0); }
+
+/*html {
+    font-size: $browser-default-font-size;
+}*/
+html {
+  font-size: 37.5px; }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+#wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; }
+  #wrap .content {
+    width: 100%;
+    overflow: hidden;
+    flex: 1; }
+    #wrap .content .block {
+      width: 100%;
+      border-bottom: 0.26667rem #ddd solid; }
+      #wrap .content .block .block-title-line {
+        border-left: 0.16rem solid orange;
+        border-bottom: 1px solid #ddd;
+        padding: 0.26667rem; }
+        #wrap .content .block .block-title-line h2 {
+          font-size: 0.42667rem;
+          color: #333; }
+          #wrap .content .block .block-title-line h2 i {
+            background: green;
+            margin-left: 0.13333rem;
+            color: #fff;
+            font-size: 0.26667rem;
+            padding: 0.10667rem 0.16rem; }
+
+#wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; }
+  #wrap header {
+    width: 100%;
+    height: 1.17333rem;
+    background: #1B191F;
+    color: #fff;
+    text-align: center;
+    font-size: 0.53333rem;
+    position: relative;
+    line-height: 1.17333rem; }
+    #wrap header a {
+      position: absolute;
+      left: 0.8rem;
+      top: 0.05333rem;
+      color: #fff;
+      font-size: 0.42667rem; }
+    #wrap header span {
+      position: absolute; }
+    #wrap header span:nth-child(1) {
+      left: 0.21333rem;
+      top: 0.10667rem; }
+    #wrap header span:nth-child(3) {
+      right: 0.21333rem;
+      top: 0; }
+  #wrap main {
+    width: 100%;
+    flex: 1;
+    overflow-y: scroll; }
+    #wrap main .Top_first {
+      width: 100%;
+      height: 1.17333rem;
+      line-height: 1.17333rem;
+      font-size: 0.48rem;
+      color: #FD8FB5;
+      font-weight: 100;
+      border-bottom: 1px solid #CDCDCD; }
+      #wrap main .Top_first p {
+        margin: 0 auto;
+        width: 95%;
+        height: 1.17333rem; }
+        #wrap main .Top_first p span {
+          padding-left: 0.16rem;
+          border-left: #FD8FB5 8px solid; }
+    #wrap main .Top_sec {
+      width: 100%;
+      height: 1.17333rem;
+      line-height: 1.17333rem;
+      font-size: 0.48rem;
+      border-bottom: 1px solid #CDCDCD; }
+      #wrap main .Top_sec p {
+        margin: 0 auto;
+        width: 95%;
+        height: 1.17333rem; }
+        #wrap main .Top_sec p span {
+          padding-left: 0.16rem; }
+        #wrap main .Top_sec p span:nth-child(3) {
+          float: right; }
+    #wrap main .Top_third {
+      width: 100%;
+      height: 1.17333rem;
+      line-height: 1.17333rem;
+      font-size: 0.48rem; }
+      #wrap main .Top_third p {
+        margin: 0 auto;
+        width: 95%;
+        height: 1.17333rem; }
+        #wrap main .Top_third p span {
+          padding-left: 0.16rem; }
+          #wrap main .Top_third p span b {
+            font-weight: normal;
+            color: #FD8FB5; }
+    #wrap main .scro {
+      font-size: 0.48rem;
+      margin: 0 auto;
+      width: 95%;
+      height: 1.17333rem;
+      display: flex;
+      text-align: center;
+      z-index: 10;
+      position: relative; }
+      #wrap main .scro h2 {
+        z-index: 12;
+        width: 100%;
+        margin-top: 0.13333rem;
+        flex: 1;
+        height: 0.42667rem;
+        border: salmon 1px solid;
+        border-radius: 0.13333rem;
+        position: relative; }
+        #wrap main .scro h2 p {
+          position: absolute;
+          width: 5.33333rem;
+          background: pink;
+          left: 0;
+          top: 0;
+          height: 0.42667rem;
+          z-index: 88; }
+          #wrap main .scro h2 p b {
+            position: absolute;
+            left: 5.30667rem;
+            top: -0.24rem;
+            width: 0.88rem;
+            height: 0.88rem;
+            background: red;
+            border-radius: 50%;
+            z-index: 999; }
+      #wrap main .scro span:nth-child(1) {
+        text-align: center;
+        float: left;
+        width: 1.17333rem; }
+      #wrap main .scro span:nth-child(3) {
+        width: 1.17333rem;
+        float: right; }
+    #wrap main .block {
+      width: 100%;
+      height: 0.53333rem;
+      background: #F5F5F5; }
+    #wrap main .Center_tit {
+      width: 100%;
+      height: 1.17333rem;
+      line-height: 1.17333rem;
+      border-bottom: 1px solid #CDCDCD;
+      font-size: 0.42667rem; }
+      #wrap main .Center_tit p {
+        width: 95%;
+        margin: 0 auto; }
+    #wrap main .Center_dis {
+      width: 100%;
+      border-bottom: 1px solid #CDCDCD;
+      padding: 0.26667rem 0 0.8rem 0; }
+      #wrap main .Center_dis p {
+        font-size: 0.42667rem;
+        width: 95%;
+        margin: 0 auto;
+        line-height: 1.5; }
+    #wrap main .picture {
+      width: 95%;
+      margin: 0.26667rem auto;
+      height: auto;
+      line-height: 1.5;
+      display: flex; }
+      #wrap main .picture span {
+        flex: 1; }
